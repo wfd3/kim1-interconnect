@@ -1,14 +1,10 @@
-# For PCBs designed using KiCad: https://www.kicad.org/
-# Format documentation: https://kicad.org/help/file-formats/
+# Ignore list for KiCAD Projects
 
 # Temporary files
 *.000
 *.bak
 *.bck
 *.kicad_pcb-bak
-*.kicad_sch-bak
-*-backups
-*.kicad_prl
 *.sch-bak
 *~
 _autosave-*
@@ -16,6 +12,7 @@ _autosave-*
 *-save.pro
 *-save.kicad_pcb
 fp-info-cache
+~*
 
 # Netlist files (exported from Eeschema)
 *.net
@@ -24,6 +21,9 @@ fp-info-cache
 *.dsn
 *.ses
 
-# Exported BOM files
-*.xml
-*.csv
+# Gerber files
+#gerbers/
+
+# Backups
+*-backups/
+*bak
